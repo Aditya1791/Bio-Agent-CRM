@@ -191,8 +191,8 @@ Managed in **[src/store/index.ts](file:///c:/Users/swain/OneDrive/Documents/FULL
 
 Feel free to connect, ask questions, or collaborate:
 
-*   **LinkedIn**: [Aditya Ranjan Swain](https://www.linkedin.com/in/aditya-ranjan-swain)
-*   **GitHub**: [Aditya1791](https://github.com/Aditya1791)
+*   **LinkedIn**: [![LinkedIn](https://img.shields.io/badge/Aditya_Ranjan_Swain-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-ranjan-swain)
+*   **GitHub**: [![GitHub](https://img.shields.io/badge/Aditya1791-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Aditya1791)
 
 If this project helps you or if you want to support my work, feel free to buy me a coffee! ☕
 
@@ -200,11 +200,6 @@ If this project helps you or if you want to support my work, feel free to buy me
   <br/>
   <p><b>Scan QR to Support the Project / Buy Me a Coffee</b></p>
   <img src="./Aditya Ranjan.jpeg" width="180" alt="Support QR Code" />
-  <br/>
-  <br/>
-  <a href="https://www.linkedin.com/in/aditya-ranjan-swain" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
 </div>
 
 ---
