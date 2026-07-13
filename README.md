@@ -1,19 +1,40 @@
-# BioAgent Rx Portal — AI-First Healthcare CRM
+<div align="center">
 
-An **AI-first Customer Relationship Management (CRM) portal** designed for pharmaceutical sales representatives and healthcare professionals (HCPs). This portal automates compliant interaction logging via structured compliance-gated forms and natural language voice dictation transcripts, backed by simulated **LangGraph agentic state workflows**.
+<br/>
+
+```
+  ██████╗ ██╗ ██████╗  █████╗  ██████╗ ███████╗███╗   ██╗████████╗     ██████╗██████╗ ███╗   ███╗
+  ██╔══██╗██║██╔═══██╗██╔══██╗██╔════╝ ██╔════╝████╗  ██║╚══██╔══╝    ██╔════╝██╔══██╗████╗ ████║
+  ██████╔╝██║██║   ██║███████║██║  ███╗█████╗  ██╔██╗ ██║   ██║       ██║     ██████╔╝██╔████╔██║
+  ██╔══██╗██║██║   ██║██╔══██║██║   ██║██╔══╝  ██║╚██╗██║   ██║       ██║     ██╔══██╗██║╚██╔╝██║
+  ██████╔╝██║╚██████╔╝██║  ██║╚██████╔╝███████╗██║ ╚████║   ██║       ╚██████╗██║  ██║██║ ╚═╝ ██║
+  ╚══════╝ ╚═╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝   ╚═╝        ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝
+```
+
+### **FDA-Audited Real-Time PhRMA Compliance & AI-Dictation CRM Portal**
+
+<br/>
+
+[![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
+[![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+[![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)](https://redux-toolkit.js.org)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
+[![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)](https://groq.com)
+
+<br/>
+
+> **An AI-first Customer Relationship Management (CRM) portal** designed for pharmaceutical sales representatives and healthcare professionals (HCPs). Automatically parses voice dictations, registers samples under Sunshine Act limits, and enforces compliance.
+
+<br/>
+
+[**Features**](#-core-features) · [**Compliance**](#-compliance-safeguards) · [**Architecture**](#-system-architecture--workflow) · [**Codebase Walkthrough**](#-file--codebase-directory-walkthrough) · [**Quick Start**](#-installation--local-setup)
+
+<br/>
 
 ---
 
-## 📋 Table of Contents
-1. [Core Features](#-core-features)
-2. [Compliance Safeguards](#-compliance-safeguards)
-3. [System Architecture & Workflow](#-system-architecture--workflow)
-4. [File & Codebase Directory Walkthrough](#-file--codebase-directory-walkthrough)
-5. [Data Models & Types](#-data-models--types)
-6. [State Management (Redux Store)](#-state-management-redux-store)
-7. [Installation & Local Setup](#-installation--local-setup)
-
----
+</div>
 
 ## ✨ Core Features
 *   **Dual-Pane Workspace**: Combines a real-time, read-only compliance form on the left with an interactive **AI Voice Co-pilot** chat interface on the right.
@@ -166,17 +187,24 @@ Managed in **[src/store/index.ts](file:///c:/Users/swain/OneDrive/Documents/FULL
 
 ---
 
-## 🤝 Connect with Me
+## 🤝 Connect & Support
 
 Feel free to connect, ask questions, or collaborate:
 
 *   **LinkedIn**: [Aditya Ranjan Swain](https://www.linkedin.com/in/aditya-ranjan-swain)
 *   **GitHub**: [Aditya1791](https://github.com/Aditya1791)
 
+If this project helps you or if you want to support my work, feel free to buy me a coffee! ☕
+
 <div align="center">
   <br/>
-  <p><b>Scan QR to connect on LinkedIn</b></p>
-  <img src="./Aditya Ranjan.jpeg" width="180" alt="Aditya Ranjan Swain LinkedIn QR" />
+  <p><b>Scan QR to Support the Project / Buy Me a Coffee</b></p>
+  <img src="./Aditya Ranjan.jpeg" width="180" alt="Support QR Code" />
+  <br/>
+  <br/>
+  <a href="https://www.linkedin.com/in/aditya-ranjan-swain" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
 </div>
 
 ---
