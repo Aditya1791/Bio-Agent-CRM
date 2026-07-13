@@ -34,11 +34,6 @@
 
 </div>
 
-<div align="center">
-  <h3>🎬 Live Portal Walkthrough Demo</h3>
-  <img src="./crm_walkthrough_demo.webp" width="750" alt="CRM Web Portal Walkthrough Demo" />
-</div>
-
 ---
 
 ## ✨ Core Features
