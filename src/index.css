@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  /* Override indigo with a highly professional, authentic Medical Teal/Slate palette */
+  --color-indigo-50: #f0fdfa; /* Teal 50 */
+  --color-indigo-100: #ccfbf1; /* Teal 100 */
+  --color-indigo-200: #99f6e4; /* Teal 200 */
+  --color-indigo-300: #5eead4; /* Teal 300 */
+  --color-indigo-400: #2dd4bf; /* Teal 400 */
+  --color-indigo-500: #0ea5e9; /* Cyan 500 */
+  --color-indigo-600: #0f766e; /* Teal 600 (Core accent) */
+  --color-indigo-700: #115e59; /* Teal 700 */
+  --color-indigo-800: #134e4a; /* Teal 800 */
+  --color-indigo-900: #0f3e3c; /* Teal 900 */
+  --color-indigo-950: #042f2e; /* Teal 950 */
+
+  /* Extra premium clinical colors */
+  --color-clinical-50: #f2f9f9;
+  --color-clinical-600: #117a85;
+  --color-clinical-800: #0f5a63;
+  
+  /* Animations */
+  --animate-fadeIn: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-slideDown: slideDown 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes slideDown {
+    from { opacity: 0; transform: translateY(-8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f8fafc;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: #e2e8f0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #cbd5e1;
+}
+
+/* Fine-mesh grid background for authentic scientific/clinical look */
+.clinical-grid-bg {
+  background-image: radial-gradient(rgba(15, 118, 110, 0.08) 1.2px, transparent 1.2px);
+  background-size: 20px 20px;
+}
+
+/* Premium card hover outline */
+.clinical-hover-card {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.clinical-hover-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px -10px rgba(15, 118, 110, 0.08);
+  border-color: rgba(15, 118, 110, 0.2);
+}

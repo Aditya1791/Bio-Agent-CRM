@@ -1,0 +1,6 @@
+{
+  "name": "HCP Interaction Logger",
+  "description": "An AI-First Customer Relationship Management (CRM) system for Healthcare Professionals (HCP), focusing on compliant interaction logging via structured forms or conversational voice dictation transcripts powered by LangGraph.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
